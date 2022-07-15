@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <!--Style kodunu web sayfamızı(ve diğer kodları) kişişelleştirmek için kullandım. Burada daha fazla kod var(css eğitiminde görüceksiniz) fakat detaylı css bilgisi istediğinden sizin anlıcağınız şekilde yazdım.-->
+    <!--font-family tagı istediğiniz font türünü secmenize yardımcı olur, worddaki mantık gibi düşünebilirsiniz.-->
+    <!--background-color ise web sayfasının arka plan rengini ayarlar-->
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #ff99cc
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnolia Tarifi</title>
+</head>
+<body>
+    <!--Header Start-->
+    <header>
+        <!--Burada da gördüğünüz gibi h1 in font-familysini ayrı olarak özelleştirdim-->
+        <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> <em>Magnolia</em></h1>
+        <!--Burada ise paragraf kısmını font-familysini özelleştirdim-->
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> <em>bir çok şekilde yapılabilir. muzlu, çilekli, kivili...</em> </p>
+            <!--Buradaki display kodu ise html elementlerine nasıl görünceklerinin bilgisini veririz mesela block dersek block element olarak gözükürler, inline yazarsak inline element olarak gözükürler-->
+        <p style="display: flex;"><strong>Tarif :</strong> Furkan Tunçdemir</p>
+    </header>
+
+        <!--List Start-->
+        <!--div kodunu bi grup içine almak için kullandım. Text-align kodunu ise metine yatayda hizalama vermek için kullandım. text-decoration ise yazının nasıl olacağıyla ilgilidir.(underline=altı çizili, overline = üstü çizili)-->
+        <div style="text-align: center; text-decoration: underline ">
+            <p><em>Kaç Kişilik : </em>6-8 Kişilik</p>
+            <p><em>Hazırlanma Süresi : </em> 30 Dk</p>
+            <p><em>Pişirme Süresi</em> 20 Dk</p>
+        </div> 
+        <!--List End-->
+
+        <!--Section Start-->
+        <!--position tagı bir nesneyi diğer nesnelerden bağımsız olarak yerleştirmemize yardımcı olur. widht tagını biliyorsunuzdur genişliği ayarlamıza yardımcı olur.-->
+        <section style="position: relative; left: 300px; width: fit-content;">
+        
+        <!--Article Start-->
+        <!--Padding özelliğini ise boşluk bırakmak için kullanırız ne kadar boşluk istersek o kadar bırakabiliriz. Detaylı incelemek isterseniz web siteleri, uygulamalar yardımcı olucaktır.-->
+    <div style="text-align: center; padding-right: 600px;">
+        <!--text-shadow metine gölge verme işini görür.-->
+        <h3 style="text-align: center; text-shadow: 1px 1px white;">Magnolia Tarifi İçin Malzemeler</h3>
+        <!--List-style-type ise listenin görünümünün nasıl olucağını belirler. Mesela square derseniz yuvarlak(default ayar budur) noktalar kare noktalara dönüşür.-->
+        <ul style="text-align: justify; list-style-type: disc;;">
+            <li>5 su bardağı süt (1 litre)</li>
+            <li>4 yemek kaşığı un</li>
+            <li>100 ml krema (yarım kutu)</li>
+            <li>3/4 (bir yarım+bir çeyrek) su bardağı şeker</li>
+            <li>1 paket vanilya</li>
+            <li>1 adet yumurta</li>
+            <li>1 paket bebe bisküvisi (yulaflı diğer bisküviler de tercih edilebilir)</li>
+            <li>1 su bardağı fındık</li>
+            <li>Çilek</li>
+        </ul>
+        <h3  style="text-align: center; text-shadow: 1px 1px white;">Magnolia Nasıl Yapılır?</h3>
+        <ol style="text-align: justify; display: inline-block;  ">
+            <li>Magnolianın muhallebisi için uygun bir tencereye süt,  toz şeker, un, yumurta ve  sıvı kremayı alalım.</li>
+            <li>Malzemelerimizi tel çırpıcıyla karıştırarak pişirmeye başlayalım.</li>
+            <li>Muhallebi koyulaşıp göz göz oluncaya kadar karıştırarak pişirelim ve ardından ocağı kapatalım.</li>
+            <li>İçerisine vanilya ilave ederek şöyle bir karıştırdıktan sonra muhallebiyi uygun bir karıştırma kabının içerisine alalım.</li>
+            <li>Muhallebimiz beklerken üzerini streç filmle kapatalım. Böylelikle üzerinin kabuklanmasını engellemiş oluruz.</li>
+            <li>Diğer taraftan bebe bisküvisi ve  kavrulmuş fındığı rondoya alalım ve hızlıca rondodan geçirelim.</li>
+            <li>Soğuyan muhallebiyi mikserle iki dakika kadar çırpalım. Artık tatlıyı sunum yapacağımız kuplara doldurmaya başlayabiliriz. Şimdi kupların tabanına ilk olarak fındıklı bisküvi karışımını yerleştirelim. Sizlerde kaşığın arkasıyla düzeltirseniz çok daha güzel bir görünüm elde edebilirsiniz.</li>
+            <li>Ardından kuplarımızın kenarlarına dilimlenmiş çilekleri yerleştirelim.</li>
+            <li>Çilekleri sıraladıktan sonra muhallebiyi kuplara paylaştıralım. Muhallebinin üzerini de yine kaşığın arka tarafı ile düzeltelim.</li>
+            <li>Son olarak muhallebinin üzerine tekrardan hazırladığımız fındıklı bisküvi karışımından yerleştirelim. Magnoliamızın üzerini dilimlenmiş çilekle süsleyelim.
+                Bu şekilde tatlılarımızı en az 2-3 saat kadar buzdolabında dinlendirdikten sonra çilekli magnolialarımız servise hazır. </li>
+        </ol>
+        <p style="text-align: right;">Afiyet olsun!</p>
+    </div>
+    <!--Article End-->
+    </section>
+    <!--Section End-->
+</body>
+</html>
